@@ -4,7 +4,7 @@
 This is a little tiny api for my brother so i could sneek into his pc. I am creating this repo for demostration if you want to use it you would have to host it on heroku or pythoneverywhere, etc. And I am not responsible if your brother give you reply with a new spyware so I am out of family matters hehe. Just Kidding.
 
 ## How it Works?
-![How it works](https://github.com/RajvirSingh1313/Spyware-Flask-Api/blob/main/How%20it%20works.svg)
+![How it works](https://github.com/RajvirSingh1313/Spyware-Flask-Api/blob/main/How%20it%20works.png)
 
 ### Client.py
 Takes Screenshot every 10 second or as you wish but remember the pictures can be alot as time pass so I have function which will automatically deletes data after 1 hour so our api don't suffer from less data space. After taking screenshot it saves the image in jpg format as it is low size format, also we uses pillow to decrease quality as we care more about size then quality and then converts into binary and then sends it in json post request to the api.
