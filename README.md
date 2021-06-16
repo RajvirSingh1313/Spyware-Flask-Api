@@ -15,4 +15,4 @@ It have two end points one is ``/`` which is only POST and second one is ``/data
 ### Reader.py
 It fetches the latest image from the api and then writes the binary to a bin file and then writes that bin file's content into jpg image.
 
-## Have good day folks!
+## Have good day folks! Btw I already removed the client script from my brother's pc, I know Privacy is a Thing
